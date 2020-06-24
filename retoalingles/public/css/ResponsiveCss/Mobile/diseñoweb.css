@@ -1,0 +1,52 @@
+@media only screen and (max-width: 425px) {
+
+
+	header .navigation .menu{
+		display: none;
+	}
+
+	header .navigation .boton-menu-mobile{
+		display: block;
+	}
+
+	.mobile-navigation{
+		display: flex;
+	}
+	/*===========*/
+
+	header .navigation .logo{
+	    display: inline-block;
+	    width: 15%;
+	    margin: 10px;
+	}
+
+	header .navigation .logo img{
+		width: 100%;
+	}
+
+	/*===========*/
+
+	.header-design .design-title .text{
+		font-size: 10vh;
+	}
+
+	.tool-design .tool-design-title h2{
+		font-size: 7vh;
+	}
+
+	.tool-design .cont-tools .tool{
+		width: 100%;
+	}
+
+	.tool-design .aside .title{
+		font-weight: bold;
+	}
+
+	.tool-design .aside .text{
+		font-size: 3vh;
+	}
+
+	.tool-design .aside .text a{
+		font-size: 4vh;
+	}
+} 

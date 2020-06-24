@@ -1,0 +1,119 @@
+@media only screen and (max-width: 750px) {
+
+	body{
+		width: 100%;
+	}
+	
+	header{
+		width: 100%;
+	}
+	header .frase{
+		width: 100%;
+	}
+	
+	header .frase .p-frase{
+		font-size: 40px;
+	}
+
+	header .bew-pago .frase .sub{
+		font-size: 20px;
+	}
+
+	/* planes */
+
+	.planes{
+		display: block;
+	}
+
+	.planes .col{
+		width: 95%;
+		margin: auto;
+		margin-bottom: 100px;
+	}
+
+	.cont .info .arguments p{
+		font-size: 14px;
+	}
+
+	.page form #btn-submit{
+		width: 60%;
+	}
+
+
+	.questions .go{
+		width: 70%;
+	}
+
+	.questions .answer{
+		width: 80%;
+		margin: 10px auto;
+		text-align: center;
+	}	
+
+	.cont-project .project{
+		width: 93%;
+	}
+
+	.cont-window{
+		padding: 25% 10% 10% 10%; 
+	}
+
+	.window-projects{
+		width: 90%;
+		padding: 10px;
+	}
+
+	.window-projects #close{
+		border: 2px solid #fff;
+		border-radius: 0px;
+		font-size: 25px;
+	}
+
+	.window-projects h2{
+		font-size: 8vh;
+	}
+
+
+	.plans-Job .title{
+		font-size: 40px;
+	}
+
+	.plans-Job .plans-steps .steep .title-steep{
+		font-size: 20px;
+	}
+
+	.plans-Job .plans-steps .steep .steep-info{
+		font-size: 15px;
+	}
+
+	.complements{
+		margin-top: 100px;
+	}
+
+	.complements article .title{
+		font-size: 35px;
+	}
+
+	.complements article .comp-text{
+		font-size: 15px;
+	}
+
+    .complements .ous .user {
+        width: 70%;
+        margin-bottom: 25px;
+    }
+
+    .complements .ous .user a img{
+        width: 100%;
+	}
+	
+	.videos{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.videos video{
+		width: 80%;
+		margin: 10px auto;
+	}
+}

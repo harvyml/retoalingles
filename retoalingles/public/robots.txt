@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow:
+
+User-agent: bingbot
+Disallow:
+
+User-agent: *
+Disallow:
+
+sitemap: https://retoalingles.com/sitemap.xml

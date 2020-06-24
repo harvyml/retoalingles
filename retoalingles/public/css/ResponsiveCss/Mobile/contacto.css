@@ -1,0 +1,37 @@
+@media only screen and (max-width: 425px) {
+
+	header .navigation .menu{
+		display: none;
+	}
+
+	header .navigation .boton-menu-mobile{
+		display: block;
+	}
+
+	.mobile-navigation{
+		display: flex;
+	}
+
+	header .navigation .logo{
+	    display: inline-block;
+	    width: 15%;
+	    margin: 10px;
+	    opacity: .3;
+	}
+
+	header .navigation .logo img{
+		width: 100%;
+	}
+
+	.container{
+		display: block;
+	}
+	.container .map{
+		width: 100%;
+	}
+	.contact-info{
+		padding: 40px;
+	}
+
+	/*===========*/
+} 

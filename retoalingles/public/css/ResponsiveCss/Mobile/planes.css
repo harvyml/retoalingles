@@ -1,0 +1,72 @@
+@media only screen and (max-width: 425px) {
+
+	header .navigation .menu{
+		display: none;
+	}
+
+	header .navigation .boton-menu-mobile{
+		display: block;
+	}
+
+	.mobile-navigation{
+		display: flex;
+	}
+	/*===========*/
+
+	header .navigation .logo{
+	    display: inline-block;
+	    width: 15%;
+	    margin: 10px;
+	}
+
+	header .navigation .logo img{
+		width: 100%;
+	}
+
+	/*===========*/
+
+	.title-plans{
+		width: 80%;
+	}
+
+	.plans .cont-plan .plan{
+		width: 90%;
+		margin-bottom: 50px;
+	}
+	
+	.plans .cont-plan .plan .title{
+		font-size: 6.5vh;
+	}	
+
+	.plans .cont-plan .plan ul li{
+		font-size: 3.5vh;
+		font-weight: bold;
+	}
+
+	.plans .cont-plan .plan .cost{
+		font-size: 5vh;
+	}
+
+	.info h2{
+		font-size: 7vh;
+	}
+
+	.info p{
+		font-size: 3vh;
+	}
+
+	.cont-btn-form h2{
+		font-size: 7vh;
+	}
+
+	.cont-btn-form p{
+		font-size: 3vh;
+	}
+
+	.cont-btn-form a{
+		padding: 8px;
+		color: #4BFBE4;
+		border: 2px solid #4BFBE4;
+	}
+
+}

@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: url(../img/min/4-min.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.main .main-design{
+	width: 50%;
+	padding: 15px 20px;
+	border-right: 5px solid #61D0B2;
+	background: rgba(127,97,97,.8);
+}
+
+.main .main-design .logo{
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 75px;
+	text-align: center;
+	padding-bottom: 9px; 
+	border-bottom: 5px dashed #50CAA3;
+}
+
+.main .main-design .logo img{
+	width: 100px;
+}
+
+.main .main-design .main-design-text{
+	color: #fff;
+	font-family: 'Raleway', Arial;
+	font-weight: 300;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.main .main-design .main-design-text p{
+	margin-bottom: 20px;
+}
+
+.main .main-design .main-design-text p .bold{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.main .main-design .main-design-text p .bew{
+	color: #50CAA3;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 500;
+	font-size: 35px;
+}
+
+.main .main-design .return{
+	display: block;
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+	padding: 10px 0; 
+	font-size: 20px;
+	font-family: 'Nunito Sans', Arial;
+	font-weight: 600;
+	color: #fff;
+	text-shadow: .1px .1px 1px #513434;
+	text-decoration: none;
+	border-radius: 3px;
+	transition: all .3s ease;
+}
+
+.main .main-design .return:hover{
+	background: #F12A88;
+	color: #fff;
+}
+
+
+.main .templates{
+	width: 50%;
+	height: 100%;
+	padding: 10px 0;
+	background: rgba(255,255,255,.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.main .templates .template{
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+
+.main .templates .template a{
+	font-size: 25px;
+	width: 100%;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	font-family: 'Ubuntu', Arial;
+	font-weight: 300;
+	padding: 20px 0;
+	transition: all .3s ease;
+}
+
+.main .templates .template a:hover{
+	transform: scale(1.2,1.2);
+	background: #fff;
+	color: #524E4E;
+}

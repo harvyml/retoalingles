@@ -1,0 +1,83 @@
+@media only screen and (max-width: 425px) {
+
+	header .navigation .menu{
+		display: none;
+	}
+
+	header .navigation .boton-menu-mobile{
+		display: block;
+	}
+
+	.mobile-navigation{
+		display: flex;
+	}
+	/*===========*/
+
+	header .navigation .logo{
+	    display: inline-block;
+	    width: 15%;
+	    margin: 10px;
+	}
+
+	header .navigation .logo img{
+		width: 100%;
+	}
+
+	/*===========*/
+
+	/* info us */
+
+	.info-us div{
+		margin-bottom: 20px;
+	}
+
+	.places{
+		display: block;
+		width: 100%;
+	}
+
+	.places div{
+		display: block;
+		width: 80%;
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	.places div img{
+		width: 100%;
+	}
+
+	.places div .text-flag{
+		padding: 15px 0; 
+		text-align: center;
+	}
+
+	/* ========= */
+	
+	.photos{
+	    width: 100%;
+	    display: block;
+	}
+	.photo-con {
+	    position: relative;
+	    width: 80%;
+	    margin: 30px auto;
+	}
+	.text{
+		font-size: 2.7vw;
+	}
+	/* ========= */
+
+	.profiles .projects .project{
+		width: 100%;
+	}
+
+	.aside .title{
+		font-size: 10vh;
+	}
+
+	.aside p{
+		font-size: 3vh;
+	}
+
+}

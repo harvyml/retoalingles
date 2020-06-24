@@ -1,0 +1,44 @@
+[debug] [2020-05-14T22:07:52.754Z] ----------------------------------------------------------------------
+[debug] [2020-05-14T22:07:52.766Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\harvy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-05-14T22:07:52.768Z] CLI Version:   8.0.1
+[debug] [2020-05-14T22:07:52.768Z] Platform:      win32
+[debug] [2020-05-14T22:07:52.768Z] Node Version:  v12.16.1
+[debug] [2020-05-14T22:07:52.773Z] Time:          Thu May 14 2020 17:07:52 GMT-0500 (GMT-05:00)
+[debug] [2020-05-14T22:07:52.774Z] ----------------------------------------------------------------------
+[debug] [2020-05-14T22:07:52.774Z] 
+[debug] [2020-05-14T22:07:52.821Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-14T22:07:52.824Z] > authorizing via signed-in user
+[debug] [2020-05-14T22:07:52.826Z] [iam] checking project retoalingles-9be68 for permissions ["firebase.projects.get"]
+[debug] [2020-05-14T22:07:52.840Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-14T22:07:52.841Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-14T22:07:53.330Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 14 May 2020 22:07:53 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-14T22:07:53.559Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/retoalingles-9be68:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-14T22:07:54.200Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 14 May 2020 22:07:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=418","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-14T22:07:54.204Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/retoalingles-9be68  
+ 
+[debug] [2020-05-14T22:07:54.666Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 14 May 2020 22:07:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\harvy\apps\retoalingles\retoalingles'...
+[info] 
+[debug] [2020-05-14T22:07:54.703Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/retoalingles-9be68/webApps/-/config  
+ 
+[debug] [2020-05-14T22:07:55.240Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 14 May 2020 22:07:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[info] +  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\harvy\apps\retoalingles\retoalingles\functions" for Cloud Functions...
+[debug] [2020-05-14T22:07:56.951Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-14T22:07:56.952Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-14T22:07:56.953Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-14T22:07:56.955Z] [worker-~diagnostic~-a7339866-c5be-4948-9cbe-55ef28fc4dfd]: Assigning socketPath: \\?\pipe\C:\Users\harvy\apps\retoalingles\retoalingles\functions\14316 
+[debug] [2020-05-14T22:07:56.956Z] [worker-~diagnostic~-a7339866-c5be-4948-9cbe-55ef28fc4dfd]: BUSY 
+[debug] [2020-05-14T22:07:59.511Z] [runtime-status] [14316] Functions runtime initialized. {"cwd":"C:\\Users\\harvy\\apps\\retoalingles\\retoalingles\\functions","node_version":"12.16.1"} 
+[debug] [2020-05-14T22:07:59.537Z] [runtime-status] [14316] Disabled runtime features: undefined 
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-05-14T22:07:59.618Z] [worker-~diagnostic~-a7339866-c5be-4948-9cbe-55ef28fc4dfd]: exited 
+[debug] [2020-05-14T22:07:59.618Z] [worker-~diagnostic~-a7339866-c5be-4948-9cbe-55ef28fc4dfd]: FINISHED 

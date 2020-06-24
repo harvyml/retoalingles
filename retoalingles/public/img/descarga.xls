@@ -1,0 +1,244 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>BoletinExcel</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+                  <thead>
+                    <tr>
+                      <th>Materia</th>
+                      <th>Compromiso en clase 15%</th>
+                      <th>Evaluación Final 20%</th>
+                      <th>Evaluaciones (Quizes) 30%</th>
+                      <th>Trabajo Personal 30%</th>
+                      <th>Auto y Coe 5%</th>
+                      <th>Promedio Total</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-notas-1">
+
+                  
+
+                                <tr>
+                                    <td>Catedra_de_Paz</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Ciencias_Naturales</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Comprension_de_textos</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Contabilidad</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Educacion_Fisica</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Español</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Espiritu_Emprendedor</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Estadistica</td>
+                                    <td>2 | 2</td>
+                                    <td>2</td>
+                                    <td>2 | 2 | 2</td>
+                                    <td>2 | 2</td>
+                                    <td>2 | 2</td>
+                                    <td>2.00</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Etica_y_Valores</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Fisica</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Fundamentos_de_Economia</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Ingles</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Musica</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Religion</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>Teorias_Administrativas</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>filosofia</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>matematica</td>
+                                    <td>5 | 4</td>
+                                    <td>3</td>
+                                    <td>4 | 3 | 4</td>
+                                    <td>3 | 4</td>
+                                    <td>5 | 4.7</td>
+                                    <td>3.67</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>quimica</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                
+
+                                <tr>
+                                    <td>sistemas</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                    <td>NaN | NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN | NaN</td>
+                                    <td>NaN</td>
+                                </tr>
+
+                                </tbody>
+                </table></body></html>

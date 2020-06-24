@@ -1,0 +1,131 @@
+		<!-- menu en moviles -->
+		<div class="btn-menu-mobile">
+			<i class="material-icons">menu</i>
+		</div>
+
+		<div class="menu-mobile">
+			<ul class="menu-on-mobile">
+				<a href="" id="home" class="a-menu a-menu-in"><li class="fa fa-home"></li></a>
+				<a href="nosotros.html" id="nosotros" class="a-menu-mobile">¿Quiénes Somos?</a>
+				<a href="disenoweb.html" id="disenoweb" class="a-menu-mobile">Diseño Web</a>
+				<a href="planes.html" id="planes" class="a-menu-mobile">Planes</a>
+			</ul>
+			<div class="btn-up-menu"><div>&#8743;</div></div>
+		</div>
+
+		<!-- logo en moviles -->
+
+		<div class="logo-ani" id="logo-ani">
+			<img src="../logo/logo.png" alt="bew">
+		</div>
+
+		<!-- -->
+
+
+
+
+		
+/* navegacion en moviles */
+
+.menu-mobile{
+    display: none;
+}
+
+.btn-menu-mobile{
+    display: none;
+}
+
+/* logo para moviles escondido */
+
+.logo-ani{
+  display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+		/* esconder header */
+
+		header .navigation{
+			display: none;
+		}
+
+		.btn-menu-mobile{
+			float: right;
+			margin: 20px;
+			color: white;
+			font-weight: bold;
+			cursor: pointer;
+			font-size: 30px;
+		}
+
+		.menu-on-mobile a{
+		  text-align: center;
+		  display: block;
+		  color: #fff;
+		  height: 30px;
+		  text-decoration: none;
+		  padding: 25px;
+		  border-bottom: 1px solid rgba(255,255,255,0.3);
+		}
+
+		.menu-mobile{
+			display: none;
+			width: 100%;
+			margin-top: 50px;
+		}
+
+		.menu-mobile .menu-on-mobile a{
+			display: block;
+			transition: all 0.3s;
+		}
+
+		.menu-mobile a:hover{
+			background: rgba(255,255,255, 0.3);
+		}
+
+		.menu-mobile a:nth-child(1):hover{
+			background: none;
+			color: #55d2e0;
+		}
+
+		/* boton para esconder menu */
+		.btn-up-menu{
+			display: block;
+			text-align: center;
+			background: #FB6262;
+			line-height: 30px;
+			font-weight: bold;
+			cursor: pointer;
+			transition: all 0.3s;
+			color: white;
+		}
+
+		.btn-up-menu:hover{
+			background: rgba(0,0,0,0.7);
+			color: white;
+		}
+
+		/* borde del boton */
+
+		.btn-up-menu div{
+			width: 50px;
+			border-bottom: 2px solid white;
+			margin: auto;
+			transition: all 0.3s;
+		}
+
+		.btn-up-menu:hover div{
+			width: 75px;
+		}
+
+		.logo-ani{
+			display: block;
+			margin-top: 20px;
+		}
+
+		.logo-ani img{
+			width: 100px;
+		}
+
+}

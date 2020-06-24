@@ -1,0 +1,267 @@
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    /*background: url('../img/bg-pattern.png');*/
+    background-repeat: repeat;
+    background-position: center;
+
+    font-size: 16px;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #584B4B;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #44899A;
+}
+
+
+img{
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*=========================================*/
+
+/*BotonUp*/
+.btn{
+    position: fixed;
+    color: #fff;
+    z-index: 1001;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    background: rgba(255,255,255,.2);
+    border-radius: 50%;
+}
+
+.btn img{
+    width: 50px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+    vertical-align: center;
+}
+/*BotonUp*/
+
+/*Header*/
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+header .navigation{
+    width: 100%;
+    display: flex;
+    z-index: 1000;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(60,59,59);
+    /*padding: 10px 0;    */
+    transition: all .6s ease;
+    position: fixed;
+}
+/*===========*/
+
+header .navigation .logo{
+    margin-left: 5%;
+    display: none;
+}
+
+header .navigation .logo img{
+    width: 65px;
+
+}
+/*===========*/
+
+header .navigation .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+
+    transition: all .6s ease;
+}
+
+header .navigation .menu a{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    color: #68e8ca;
+    padding: 20px 5px;
+
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 700;
+
+    transition: all .3s ease;
+}
+
+header .navigation .menu a:hover{
+    background: #fff;
+    color: rgb(60,59,59);
+}
+
+/*Jquery*/
+header .navigation-query{
+    background: rgba(50,50,50,.6);
+}
+
+header .navigation .menu .a-query{
+    color: #fff;
+}
+
+/*======Menu Mobile*/
+
+
+header .navigation .boton-menu-mobile{
+    padding: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-navigation{
+    position: fixed;
+    top: 0;
+    z-index: 10001;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    background: rgba(75,67,67,.7);
+    transition: all .5s ease;
+    overflow: hidden;
+    display: none;
+}
+
+.mobile-navigation .cont-link{
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-navigation .cont-link a,
+.mobile-navigation .cont-link p{
+    display: block;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 700;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.mobile-navigation .cont-link .salir{
+    color: rgb(235,74,74);
+}
+
+.mobile-navigation .cont-link .salir:hover{
+    background: rgba(235,74,74,1);
+    color: #fff;
+}
+
+.mobile-navigation .cont-link a:hover{
+    background: rgba(89,224,171,.7);
+}
+
+/*======Menu Mobile*/
+
+/*=========================================*/
+/*Pasos para el Contacto*/
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.container .map{
+    width: 50%;
+}
+
+.container .container-section{
+    margin: auto auto;
+}
+.container .container-section h3{
+    font-size: 30px;
+    margin: 10px auto;
+    text-align: center;
+}
+/*=========================================*/
+.contact-info ul{
+    list-style: none;
+}
+.contact-info ul li{
+    margin: 8px auto;
+}
+.contact-info ul li a{
+    color: #68e8ca;
+}
+/*Footer*/
+
+footer{
+    background: url('../img/bg-pattern.png');
+    background-repeat: repeat;
+    background-position: center;
+}
+
+footer .logo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer .logo img{
+    width: 75px;
+}
+
+footer .contacto{
+    background: rgba(255,255,255,.1);
+    text-align: center;
+    padding: 20px 0;
+
+    font-family: 'Open Sans', Arial;
+    font-weight: 300;
+}
+
+footer .contacto > p{
+    color: #F44545;
+}
+
+footer .contacto .tel{
+    margin: 15px 0;
+}
+
+footer .contacto .tel p{
+    color: #fff;
+}
+
+footer .contacto .email p{
+    color: #B9B9B9;
+}

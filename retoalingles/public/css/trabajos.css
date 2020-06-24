@@ -1,0 +1,251 @@
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background: #F2FAFB;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #584B4B;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #44899A;
+}
+
+
+img{
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+}
+/*=========================================*/
+
+/*BotonUp*/
+.btn{
+	position: fixed;
+	color: #fff;
+	z-index: 1001;
+	bottom: 10px;
+	right: 10px;
+	padding: 5px;
+	background: rgba(255,255,255,.2);
+	border-radius: 50%;
+}
+
+.btn img{
+	width: 50px;
+	cursor: pointer;
+}
+/*BotonUp*/
+
+/*Header*/
+header{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+header .navigation{
+    width: 100%;
+    display: flex;
+    z-index: 1000;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:70px;
+    background: #211E1E;
+    /*padding: 10px 0;    */
+    transition: all .6s ease;
+    position: fixed;
+}
+/*===========*/
+
+header .navigation .logo{
+    margin-left: 5%;
+    display: none;
+}
+
+header .navigation .logo img{
+    width: 65px;
+
+}
+/*===========*/
+
+header .navigation .menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+	margin: auto;
+
+	transition: all .6s ease;
+}
+
+header .navigation .menu a{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    color: #68e8ca;
+	padding: 20px 5px;
+
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 700;
+
+    transition: all .3s ease;
+}
+
+header .navigation .menu #home{
+	/*font-size: 22px;*/
+}
+
+
+header .navigation .menu a:hover{
+    background: #fff;
+    color: rgb(60,59,59);
+}
+
+/*Jquery*/
+header .navigation-query{
+	background: rgba(0,0,0,0.4);
+}
+
+header .navigation .menu .a-query{
+	color: #fff;
+}
+/*======*/
+
+/*=========================================*/
+/*Info*/
+
+.container{
+	width: 100%;
+}
+
+.container .info{
+	width: 100%;
+	margin-bottom: 150px;
+
+}
+
+.container .info .web{
+	margin-bottom: 100px;
+	background: rgba(255,255,255,.2);
+	padding: 10px 0px;
+}
+
+.container .info .web .image-info{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.container .info .web .image-info img{
+	margin: 0px 20px;
+	transition: all .3s ease;
+}
+
+	.container .info .web .image-info img:hover{
+		transform: scale(1.2,1.2);
+	}
+
+.container .info .web .title{
+	color: #4EBC9C;
+	font-size: 50px;
+	text-align: center;
+
+	font-family: 'Open Sans', Arial;
+	font-weight: 400;
+
+	margin-bottom: 20px;
+}
+
+.container .info .web p{
+	color: #818080;
+	width: 100%;	
+	font-size: 14px;
+	padding: 0px 70px;
+	line-height: 27px;
+	font-family: 'Open Sans', Arial;
+	font-weight: 600;
+	text-align: center;
+}
+/*=========================================*/
+/*Trabajos*/
+
+
+/*=========================================*/
+/*Footer*/
+
+footer{
+	/*background: #ccc;*/
+}
+
+footer .logo{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+footer .logo img{
+	width: 75px;
+}
+
+footer .contacto{
+	background: rgba(255,255,255,.1);
+	text-align: center;
+	padding: 20px 0;
+
+	font-family: 'Open Sans', Arial;
+	font-weight: 300;
+}
+
+footer .contacto > p{
+	color: #F44545;
+}
+
+footer .contacto .tel{
+	margin: 15px 0;
+}
+
+footer .contacto .tel p{
+	color: #383636;
+}
+
+footer .contacto .email p{
+	color: #EE51A6;
+}
+
+footer .cont-credit{
+    margin-top: 50px;
+}
+
+footer .credit, .credit > a{
+	font-size: 10px;
+	text-align: center;
+	color: #9C9898;
+}
+
+
+
+
+

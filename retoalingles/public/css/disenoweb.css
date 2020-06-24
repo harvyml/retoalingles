@@ -1,0 +1,398 @@
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    /*background: url('../img/bg-pattern.png');*/
+    background-repeat: repeat;
+    background-position: center;
+
+    font-size: 16px;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #584B4B;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #44899A;
+}
+
+
+img{
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*=========================================*/
+
+/*BotonUp*/
+.btn{
+    position: fixed;
+    color: #fff;
+    z-index: 1001;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    background: rgba(255,255,255,.2);
+    border-radius: 50%;
+}
+
+.btn img{
+    width: 50px;
+    cursor: pointer;
+}
+/*BotonUp*/
+
+/*Header*/
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+header .navigation{
+    width: 100%;
+    display: flex;
+    z-index: 1000;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(60,59,59);
+    /*padding: 10px 0;    */
+    transition: all .6s ease;
+    position: fixed;
+}
+/*===========*/
+
+header .navigation .logo{
+    margin-left: 5%;
+    display: none;
+}
+
+header .navigation .logo img{
+    width: 65px;
+
+}
+/*===========*/
+
+header .navigation .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+
+    transition: all .6s ease;
+}
+
+header .navigation .menu a{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    color: #68e8ca;
+    padding: 20px 5px;
+
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 700;
+
+    transition: all .3s ease;
+}
+
+header .navigation .menu .a-menu-in{
+    background: #fff;
+    color: rgb(60,59,59);
+}
+
+header .navigation .menu a:hover{
+    background: #fff;
+    color: rgb(60,59,59);
+}
+
+/*Jquery*/
+header .navigation-query{
+    background: rgba(50,50,50,.6);
+}
+
+header .navigation .menu .a-query{
+    color: #fff;
+}
+
+/*======Menu Mobile*/
+
+header .navigation .boton-menu-mobile{
+    padding: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-navigation{
+    position: fixed;
+    top: 0;
+    z-index: 10001;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    background: rgba(75,67,67,.7);
+    transition: all .5s ease;
+    display: none;
+    overflow: hidden;
+}
+
+.mobile-navigation .cont-link{
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-navigation .cont-link a,
+.mobile-navigation .cont-link p{
+    display: block;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 700;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.mobile-navigation .cont-link .salir{
+    color: rgb(235,74,74);
+}
+
+.mobile-navigation .cont-link .salir:hover{
+    background: rgba(235,74,74,1);
+    color: #fff;
+}
+
+.mobile-navigation .cont-link a:hover{
+    background: rgba(89,224,171,.7);
+}
+
+/*======Menu Mobile*/
+
+/*Header Diseño*/
+
+.header-design{
+    width: 100%;
+background: rgba(69,222,153,1);
+background: -moz-linear-gradient(45deg, rgba(69,222,153,1) 0%, rgba(67,230,197,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(69,222,153,1)), color-stop(100%, rgba(67,230,197,1)));
+background: -webkit-linear-gradient(45deg, rgba(69,222,153,1) 0%, rgba(67,230,197,1) 100%);
+background: -o-linear-gradient(45deg, rgba(69,222,153,1) 0%, rgba(67,230,197,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(69,222,153,1) 0%, rgba(67,230,197,1) 100%);
+background: linear-gradient(45deg, rgba(69,222,153,1) 0%, rgba(67,230,197,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45de99', endColorstr='#43e6c5', GradientType=1 );
+
+}
+
+.header-design .design-title{
+    padding: 100px 0;
+}
+
+.header-design .design-title .text{
+    text-align: center;
+    font-family: 'Raleway', Arial;
+    font-weight: 400;
+    font-size: 90px;
+    color: #fff;
+}
+
+.header-design .design-description{
+    padding: 20px 0;
+}
+
+.header-design .design-description .text{
+    text-align: center;
+    font-family: 'Raleway', Arial;
+    font-weight: 400;
+    font-size: 20px;
+    background: #FA925A;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.tool-design{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tool-design .tool-design-title{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.tool-design .tool-design-title h2{
+    font-size: 54px;
+    color: #572828;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 300;
+}
+
+.tool-design .cont-tools{
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tool-design .cont-tools .tool{
+    width: 30%;
+    margin-bottom: 40px;
+    /*background: #EEEEEE;*//* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f5f6+0,e3eaed+37,c8d7dc+100;Grey+3D+%234 */
+background: rgb(242,245,246); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(242,245,246,1) 0%, rgba(227,234,237,1) 37%, rgba(200,215,220,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 ); /* IE6-9 */
+    padding: 10px 0;
+    border-radius: 3px 0 3px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+    border: 5px solid #fff;
+}
+
+.tool-design .cont-tools .tool:hover{
+    border: 5px solid #FA5454;
+    background: #fff;
+}
+
+.tool-design .cont-tools .tool:hover> .text{
+    color: #307399;
+}
+
+
+.tool-design .cont-tools .tool .image{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tool-design .cont-tools .tool .image img{width: 80px;}
+
+
+.tool-design .cont-tools .tool .title{
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+    color: #3A8FCA;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 600;
+    margin: 40px 0;
+}
+
+.tool-design .cont-tools .tool .text{
+    width: 100%;
+    padding: 10px 15px;
+    text-align: justify;
+    line-height: 27px;
+    font-family: 'Raleway', Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3C3737;
+    transition: all .2s ease;
+}
+
+.tool-design .aside{
+    margin: 60px 0;
+    width: 100%;
+    padding: 15px 10px;
+    background: #E9356C;
+    transition: all .3s ease;
+}
+
+.tool-design .aside:hover{
+    background: #F6941E;
+}
+
+.tool-design .planes{
+    background: #D36D4E;
+}
+
+.tool-design .aside .title{
+    font-size: 18px;
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.tool-design .aside .text{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 700;
+}
+
+.tool-design .aside .text a{color: #fff; font-weight: 900; font-size: 16px; text-decoration: underline;}
+
+/*=========================================*/
+/*Footer*/
+
+footer{
+    background: url('../img/bg-pattern.png');
+    background-repeat: repeat;
+    background-position: center;
+}
+
+footer .logo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer .logo img{
+    width: 75px;
+}
+
+footer .contacto{
+    background: rgba(255,255,255,.1);
+    text-align: center;
+    padding: 20px 0;
+
+    font-family: 'Open Sans', Arial;
+    font-weight: 300;
+}
+
+footer .contacto > p{
+    color: #F44545;
+}
+
+footer .contacto .tel{
+    margin: 15px 0;
+}
+
+footer .contacto .tel p{
+    color: #fff;
+}
+
+footer .contacto .email p{
+    color: #B9B9B9;
+}

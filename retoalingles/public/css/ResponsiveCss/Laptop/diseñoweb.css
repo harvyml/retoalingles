@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1024px){
+ 
+ 	/*Header*/
+  	header .navigation .menu{
+   		 width: 100%;
+  	}	
+
+  	/*Cajas-Herramientas*/
+	.tool-design .cont-tools .tool{
+		width: 48%;
+	}
+
+	/*Aside*/
+	.tool-design .aside{
+		background: #FA5454;
+		border: none;
+	}
+
+	.tool-design .aside .text a{
+		color: #DDFAAF;
+		font-size: 21px;
+	}
+
+}

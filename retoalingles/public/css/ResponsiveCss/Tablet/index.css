@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px){
+
+	/*Mobile-Menu*/
+	header .navigation .menu{
+		display: none;
+	}
+
+	header .navigation .boton-menu-mobile{
+		display: block;
+	}
+
+	.mobile-navigation{
+		display: flex;
+	}
+	/*Mobile-Menu*/
+
+	header .bew-pago{
+		margin-top: 90px;
+	}
+
+	header .bew-pago .frase .sub{
+		color: #302A2A;
+	}
+
+	/*Boton-Questions*/
+
+	.questions .go{
+		width: 50%;
+	}
+
+	.projects .project{
+		width: 80%;
+	}
+
+}

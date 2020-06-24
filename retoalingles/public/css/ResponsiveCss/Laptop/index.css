@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1024px) {
+	.c-slider{
+		display: none;
+	}
+
+	header{
+		background: #FB6262;
+	}
+
+	header .navigation{
+		background: rgba(0,0,0,.3);
+		border-bottom: 3px solid #fff;
+	}
+
+	header .boton{
+		display: none;
+	}
+
+	header .bew-pago .frase{
+		margin-top: 40px;
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	header .bew-pago .frase .p-frase{
+		text-align: center;
+		font-size: 10vh;
+		text-shadow: none;
+		color: #fff;
+	}
+
+	header .bew-pago .frase .sub{
+		text-align: center;
+		color: #302A2A;
+		text-shadow: none;
+	}
+
+	header .bew-pago .btn-page{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	header .bew-pago .btn-page .btn-text{
+		border: none;
+		/*F12B2B*/
+		border: 4px solid #FA5363;
+		background: rgba(241,43,43,.6);
+		color: #fff;
+	}
+
+	header .bew-pago{
+		margin-top: 90px;
+	}
+
+
+	/*---------- Formulario -----------*/
+
+	#form-datos{
+		width: 50%;
+	}
+
+    /*------------ Acerca de  ------------*/
+
+    /* Tipos de Proyectos */
+
+	.projects{
+		padding: 0;
+	}
+
+    .projects .project{
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    .projects .templates{
+    	margin: 30px auto;
+    }
+
+    .projects .templates a{
+		font-size: 25px;
+    }
+
+    /* Plan de Trabajo */
+
+	.plans-Job{width: 100%;}
+	.plans-Job .plans-steps{width: 100%;}
+
+	.plans-Job .plans-steps .steep{
+		width: 80%;
+		margin: 20px auto;
+		text-align: justify;
+	}
+
+	.plans-Job .plans-steps .steep .title-steep{
+		width: 50%;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+    /* Perfiles */
+
+
+    .complements .ous .user {
+        width: 30%;
+    }
+
+    .complements .ous .user a img{
+        width: 100%;
+    }
+
+    .complements .ous .user p{
+    	background: transparent;
+        font-size: 20px;
+        color: black;
+    }
+
+    /* Footer */
+
+    footer .cont-izq{
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .formulario{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    footer .formulario form{
+    	width: 80%;
+    	margin: auto;
+    }
+
+    footer .formulario form input[type="button"]{
+    	width: 40%;
+    	font-size: 25px;
+    	margin: auto;
+    }
+
+
+
+}

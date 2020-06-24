@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Gothic+A1');
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gothic A1', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #584B4B;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #44899A;
+}
+
+
+img{
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+}
+
+.white-text{
+    color: white;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.title h1{
+    font-weight: normal;
+}
+.Empresa{
+    color: #3E3A3A;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #3E3A3A;
+}
+.center{
+    text-align: center;
+    vertical-align: center;
+}
+
+/*=========================================*/
+
+/*Header*/
+header{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.c-slider{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    height: 100%;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+    height: 100%;
+}
+
+.slider section{
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+
+header .navigation{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    transition: all 2s ease;
+    z-index: 1000;
+    background: rgba(0,0,0,0.4)
+}
+
+
+header .navigation .logo{
+    margin-left: 3%;
+    transition: all .1s ease;
+}
+
+header .navigation .logo img{
+    width: 75px;
+    transition: all 1s ease;
+}
+
+header .navigation .menu{
+    margin-right: 5%;
+}
+
+header .navigation .menu a{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #00cefd;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    z-index: 1000;
+
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 700;
+
+    transition: all 1s ease;
+}
+
+header .navigation .menu .a-menu-in{
+    border-bottom: 2px solid   #00cefd;
+    color: #fff;
+}
+
+header .navigation .menu a:hover{
+    border-bottom: 2px solid   #00cefd;
+    color: #fff;
+}
+
+/*======Menu Mobile*/
+
+header .navigation .boton-menu-mobile{
+    display: block;
+    padding: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-navigation{
+    position: fixed;
+    z-index: 10001;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    background: rgba(75,67,67,.7);
+    transition: all .5s ease;
+    overflow: hidden;
+    display: none;
+}
+
+.mobile-navigation .cont-link{
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-navigation .cont-link a,
+.mobile-navigation .cont-link p{
+    display: block;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 700;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.mobile-navigation .cont-link .salir{
+    color: rgb(235,74,74);
+}
+
+.mobile-navigation .cont-link .salir:hover{
+    background: rgba(235,74,74,1);
+    color: #fff;
+}
+
+.mobile-navigation .cont-link a:hover{
+    background: rgba(89,224,171,.7);
+}
+
+/*======Menu Mobile*/
+
+/*---Frase*/
+.rai-pago{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rai-pago .frase{
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+header .frase .p-frase{
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: 85px;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 8px;
+    /*margin-bottom: 70px;¨*/
+
+    font-family: 'Raleway', Arial;
+    font-weight: 300;
+    transition: all .3s ease;
+}
+
+
+header .frase .sub{
+    width: 100%;
+    font-size: 40px;
+    letter-spacing: 6px;
+    color: #00cefd;
+    text-shadow: .1px .1px 1px #000;
+    border-radius: 3px;
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 400;
+    transition: all .8s ease;
+}
+
+header .btn-page{
+    width: 100%;
+    display: inline-block;
+    margin:  30px auto;
+    padding: 0 20px;
+}
+
+header .btn-page .btn-text{
+    background: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    text-shadow: .05px .05px .1px #000;
+    color: #fff;
+    font-family: 'Open Sans', Arial;
+    font-weight: 600;
+    /*background:   #00cefd;*/
+    border: 3px solid #00cefd;
+
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+
+header .btn-page .btn-text:hover{
+    color: white;
+    transform: scale(1.1,1.1);
+    background: rgba(255,255,255,0.2);
+}
+
+.navigation .logo h2{
+    color: white;
+    padding: 15px;
+}
+/*=========================================*/
+
+/*¿Quienes Somos?*/
+
+.info{
+    width: 90%;
+    max-width: 1000px;
+    margin: 200px auto;
+    transition: all .3s ease;
+}
+/*
+.info:hover{
+    transform: scale(1.1,1.1);
+}*/
+
+.info .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info .title h2{
+    font-family: 'Raleway',Arial;
+    font-weight: 400;
+    font-size: 23px;
+    color: #242424;
+    transition: all .3s ease;
+}
+
+
+.info .arguments{
+    text-align: center;
+}
+
+.info .arguments p{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Open Sans', Arial;
+    font-weight: 400;
+    color: #4c5454;
+}
+
+.info .arguments p span{
+    /*font-family: 'Open Sans', Arial;*/
+    font-weight: 600;
+}
+
+/*=========================================*/
+
+.cont-in{
+    margin-bottom: 75px;
+}
+
+
+.planes{
+    display: flex;
+}
+
+.cont-in .title-planes{
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    color: #3f3f3f;
+    font-weight: normal;
+}
+
+.cont-in .border-planes{
+    width: 80%;
+    background: #fba919;
+    height: 1px;
+    margin: auto;
+}
+
+.planes .col{
+    background: #fafafa;
+    width: 30%;
+    margin: auto;
+
+}
+
+.planes .col .title{
+    font-size: 30px;
+    color: #fba919;
+    font-family: "Ubuntu";
+    text-align: center;
+    margin: 30px auto;
+}
+
+.planes .col li{
+    width: 85%;
+    color: #5b5b5b;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    margin: auto;
+    background: white;
+    padding: 15px 0;
+    margin-top: 10px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+.planes .col .li-btn{
+    background: rgba(251, 169, 25, 0.7);
+    transition: all 0.2s;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.planes .col .li-btn:hover{
+    background: rgba(251, 169, 25, 0.9);
+    transform: scale(1.04);
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+}
+
+.planes .col li a{
+    color: white;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+/*Quiero una Pagina*/
+
+.page{
+    background: #F3F3F3;
+    padding: 10px 15px;
+}
+
+.page .title{
+    font-family: 'Open Sans', Arial;
+    font-weight: 400;
+    font-size: 25px;
+    color: #242f40;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+
+/*=========================================*/
+
+/*Seccion de Preguntas*/
+.questions{
+    width: 100%;
+    margin: 100px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed #000;
+}
+/* animacion elementos escondidos */
+
+.questions .hidden{
+    display: none;
+}
+
+.show-questions{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.show-questions #read{
+    padding: 15px;
+    background: rgba(0,0,0,0.03);
+    color: #3896c1;
+    border-bottom: 0.3px solid #3896c1;
+}
+
+
+.show-questions i{
+    padding: 14px 15px;
+    color: #2c7da3;
+    cursor: pointer;
+    border-bottom: 0.3px solid #3896c1;
+}
+
+/* segundo boton de animacion */
+
+.show-questions-2 #read-2{
+    padding: 15px;
+    background: rgba(0,0,0,0.03);
+    color: #fba919;
+    border-bottom: 0.3px solid #fba919;
+}
+
+.questions .hidden-2{
+    display: none;
+}
+
+.show-questions-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.show-questions-2 i{
+    padding: 14px 15px;
+    color: #fba919;
+    cursor: pointer;
+    border-bottom: 0.3px solid #fba919;
+}
+
+.hide-questions{
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin: auto;
+    display: none;
+}
+
+.hide-questions i{
+    background: white;
+    color: #00cefd;
+    padding: 5px 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px; 
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+/*---------------------*/
+
+
+.questions .answer{
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.questions .answer .bold{
+    width: 100%;
+    font-family: 'Ubuntu', Arial;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00cefd;
+}
+
+.questions .answer .answer-text{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 300;
+    color: #3D3A3A;
+}
+
+.questions .answer .answer-text a{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #3D3A3A;
+}
+
+.questions .go{
+    width: 25%;
+    margin: 100px auto;
+    padding: 15px 10px;
+    background: #D93333;
+    border: 2px solid transparent;
+    color: #fff;
+    text-align: center;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 19px;
+    transition: all .3s ease;
+}
+
+.questions .go:hover{
+    font-size: 21px;
+    background: #fff;
+    color: #D93333;
+    border: 2px solid #D93333;
+}
+
+/*=========================================*/
+
+.contenedor-ani {
+    filter: rgba(0,0,0,0.4);
+    filter: brightness(0.1);
+}
+
+
+
+/*=========================================
+
+/*Seccion de Planes*/
+
+.plans-Job{
+    margin-top: 100px;
+    padding: 20px 0;
+    background: url(../img/black-Linen.png);
+    overflow: hidden;
+}
+
+.plans-Job .title{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Ubuntu', Arial;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.plans-Job .plans-steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+}
+
+.plans-Job .plans-steps .steep{
+    width: 20%;
+    padding: 10px 15px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.plans-Job .plans-steps .steep:hover{
+    transform: scale(1.05,1.05);
+    background: rgba(255,255,255,.1);
+}
+
+.plans-Job .plans-steps .steep .image-steep{
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.plans-Job .plans-steps .steep .title-steep{
+    font-family: 'Raleway', Arial;
+    font-weight: 600;
+    font-size: 24px;
+    color: #EF8652;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #EF8652;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plans-Job .plans-steps .steep .steep-info{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Open Sans', Arial;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+/*=========================================
+
+/*Seccion de complemento*/
+
+.complements{
+    margin-top: 200px;
+}
+
+.complements article{
+    padding: 20px;
+}
+
+.complements article .title{
+    font-size: 45px;
+    color: rgb(243,174,50);
+    font-family: 'Open Sans', Arial;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.complements article .comp-text{
+    font-size: 18px;
+    font-family: 'Open Sans', Arial;
+    font-weight: 400;
+    text-align: center;
+    color: #4B4A4A;
+}
+
+.complements .ous{
+    margin-top: 80px;
+    width: 100%;
+    /*background: #ccc;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.complements .ous .user{
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.complements .ous .user a{
+    display: inline-block;
+}
+
+.complements .ous .user img{
+    width: 200px;
+    min-height: 225px;
+}
+
+.complements .ous .nicolas img{
+    width: 250px;
+}
+
+.complements .ous .user p{
+    width: 100%;
+    background: #3C3939;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 400;
+}
+
+
+/*================= VIDEOS ========================*/
+.videos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}.videos video{
+    margin: auto;
+    width: 45%;
+}
+/*Footer*/
+
+footer{
+    background:#595959;
+    margin-top: 100px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .logo-footer{
+    width: 100%;
+    text-align: center;
+    /*background: #ccc;*/
+    margin-bottom: 70px;
+}
+
+footer .logo-footer img{
+    width: 75px;
+}
+
+footer .cont-izq{
+    width: 50%;
+}
+
+footer .cont-izq .tel{
+    /*background: #ccc;*/
+    padding: 5px;
+}
+
+footer .cont-izq .tel h3{
+    color: #F293A7;
+    font-family: 'Raleway', Arial;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+footer .cont-izq .tel p{
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Nunito', Arial;
+    font-weight: 600;
+}
+
+footer .cont-izq .tel #c-email{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .cont-izq .more{
+    margin-top: 50px;
+
+}
+
+footer .cont-izq .more p{
+    font-size: 16px;
+    color: #51E9B5;
+    font-family: 'Raleway', Arial;
+    font-weight: 400;
+}
+
+
+footer .formulario{
+    width: 50%;
+    text-align: center;
+}
+
+footer .formulario .form-title{
+    margin-bottom: 10px;
+}
+
+footer .formulario .form-title h3{
+    font-family: 'Nunito Sans', Arial;
+    font-weight: 600;
+    color: #F76B7C;
+}
+
+footer .formulario input{
+    width: 100%;
+    font-family: 'Open Sans', Arial;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    background: none;
+    margin-bottom: 20px;
+    border: 2px solid #F68282;
+    border-radius: 3px;
+}
+
+footer .formulario textarea{
+    width: 100%;
+    max-width: 100%;
+    height: 70px;
+    max-height: 90px;
+    margin-bottom: 15px;
+    border: 2px solid #F68282;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', Arial;
+    font-weight: 600;
+    background: none;
+}
+
+
+footer .formulario input[type="button"]{
+    border: none;
+    background: #F49B33;
+    font-family: 'Raleway', Arial;
+    font-weight: 400;
+    transition: all .3s ease;
+}
+
+footer .formulario input[type="button"]:hover{
+    background: #50C1B5;
+}
+
+
+footer .formulario input:focus, footer .formulario textarea:focus{
+    outline: none;
+    border: 2px solid  #00cefd;
+}
+footer .creditos{
+    width: 100%;
+    margin-top: 20px;
+    color: #E0DDDD;
+    font-size: 12px;
+    font-family: 'Open Sans', Arial;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer .rai{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color:  #00cefd;
+    width: 100%;
+    padding: 10px;
+    /*background: #fff;*/
+}
+
+footer .cont-credit{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 40%;
+    height: 40px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+footer .cont-credit::-webkit-scrollbar {
+    width: 5px;
+}
+
+footer .cont-credit::-webkit-scrollbar-track {
+    background: #584B4B;
+}
+
+footer .cont-credit::-webkit-scrollbar-thumb {
+    background: #44899A;
+}
+
+
+
+footer .credit, .credit > a{
+    font-size: 10px;
+    text-align: center;
+    color: #9C9898;
+}

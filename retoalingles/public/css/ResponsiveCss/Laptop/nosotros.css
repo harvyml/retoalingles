@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1024px) {
+
+	/*Header*/
+	header .navigation .menu{
+		width: 100%;
+	}
+
+	/* info nosotros */
+
+	.info-us{
+		display: block;
+	}
+
+	/*Perfiles*/
+	.profiles .image{
+		display: none;
+	}
+
+	.profiles .social{
+		text-align: center;
+	}
+
+	.profiles .social a{
+		font-size: 30px;
+		color: #FFFFFF;
+		text-shadow: .1px 1px 10px #000;
+	}
+
+	.profiles .social a:hover{
+		transform: scale(1.2,1.2);
+		color: #473F3F;
+		text-shadow: none;
+		background: none;
+	}
+
+	.profiles .projects{
+		background: #FFFFFF;
+		border-radius: 0;
+	}
+
+	.profiles .projects .project{
+		width: 45%;
+	}
+
+	/*Aside*/
+	.aside:hover >p{
+		color: #fff;
+	}
+
+	/*Enlaces*/
+	.enlaces a{
+		width: 60%;
+		margin-bottom: 15px;
+		outline: none;
+	}
+
+	.enlaces a:hover{
+		transition: scale(1.2,1.2);
+		background: none;
+	}
+	
+}
